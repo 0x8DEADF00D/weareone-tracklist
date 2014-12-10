@@ -1,2 +1,9 @@
+from parser.TechnobaseFM import TechnobaseFM
+
+
 def main():
-    print("Test")
+    pass
+
+
+if __name__ == '__main__':
+    main()
