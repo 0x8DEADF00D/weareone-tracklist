@@ -3,7 +3,7 @@ from abc import ABCMeta, abstractmethod
 
 class HttpConnection(metaclass=ABCMeta):
     @abstractmethod
-    def Get(self):
+    def Get(self, url):
         pass
 
     @abstractmethod
