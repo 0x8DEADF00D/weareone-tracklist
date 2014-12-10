@@ -15,7 +15,7 @@ setup(name='weareone-tracklist',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['requests', 'beautifulsoup4'],
+      install_requires=['requests', 'beautifulsoup4', 'python-dateutil'],
       license="MIT",
       classifiers=[
           'License :: OSI Approved :: MIT License',

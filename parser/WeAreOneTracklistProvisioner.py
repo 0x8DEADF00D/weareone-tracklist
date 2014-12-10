@@ -1,6 +1,7 @@
 from parser.TracklistProvisioner import TracklistProvisioner
 from bs4 import BeautifulSoup
 from parser.TrackHistoryEntry import TrackHistoryEntry
+from dateutil import parser
 import re
 
 class WeAreOneTracklistProvisioner(TracklistProvisioner):
@@ -40,7 +41,7 @@ class WeAreOneTracklistProvisioner(TracklistProvisioner):
 
                 match = re.search('([0-9:]+)', timePlayedNode.text)
                 if len(match.groups()) != 0:
-                    retrievedTrack.Time = match.group(1)
+                    retrievedTrack.Date = parser.parse(match.group(1))
 
             retrievedTracks.append(retrievedTrack)
 
