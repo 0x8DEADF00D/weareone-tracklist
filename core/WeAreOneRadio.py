@@ -3,6 +3,9 @@ class WeAreOneRadio(object):
         self.Name = name
         self.BaseURL = baseurl
 
+    def __repr__(self):
+        return self.Name
+
     @staticmethod
     def TechnobaseFM():
         return WeAreOneRadio("Technobase.FM", "http://www.technobase.fm/")

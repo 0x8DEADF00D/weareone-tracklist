@@ -8,4 +8,4 @@ class TrackHistoryEntry(object):
         self.DJ = ""
 
     def __repr__(self):
-        return "{dj}: {name} ({time})".format(dj=self.DJ, name=self.Name, time=self.Date.strftime("%d.%m.%Y %H:%M"))
+        return "{time}: {name} (DJ: {dj})".format(dj=self.DJ, name=self.Name, time=self.Date.strftime("%d.%m.%Y %H:%M"))
