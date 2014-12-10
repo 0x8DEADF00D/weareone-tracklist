@@ -15,7 +15,11 @@ setup(name='weareone-tracklist',
       packages=find_packages(),
       include_package_data=True,
       zip_safe=False,
-      install_requires=['requests', 'beautifulsoup4', 'python-dateutil'],
+      install_requires=[
+          'requests',
+          'beautifulsoup4',
+          'python-dateutil'
+      ],
       license="MIT",
       classifiers=[
           'License :: OSI Approved :: MIT License',
@@ -23,6 +27,6 @@ setup(name='weareone-tracklist',
       ],
       entry_points={
           'console_scripts': [
-              'parser=parser:main',
-        ]
+              'parser=parser:main'
+          ]
       })

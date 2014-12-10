@@ -26,7 +26,7 @@ class WeAreOneTracklistProvisioner(TracklistProvisioner):
             if trackNameNode.name != 'table':
                 continue
 
-            trackNameNode = trackNameNode.find('tbody').find('tr').find('th').find('a')
+            trackNameNode = trackNameNode.find('tbody').find('tr').find('th')
             if trackNameNode is not None:
                 retrievedTrack.Name = trackNameNode.text
 
