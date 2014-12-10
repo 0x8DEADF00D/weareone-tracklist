@@ -1,5 +1,5 @@
-from parser.HttpConnection import HttpConnection
-from parser.ConnectionFailedException import ConnectionFailedException
+from acquisition.HttpConnection import HttpConnection
+from acquisition.ConnectionFailedException import ConnectionFailedException
 import requests
 
 class RequestsHttpConnection(HttpConnection):

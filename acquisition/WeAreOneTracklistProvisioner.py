@@ -1,8 +1,11 @@
-from parser.TracklistProvisioner import TracklistProvisioner
-from bs4 import BeautifulSoup
-from parser.TrackHistoryEntry import TrackHistoryEntry
-from dateutil import parser
 import re
+
+from bs4 import BeautifulSoup
+from dateutil import parser
+
+from acquisition.TracklistProvisioner import TracklistProvisioner
+from core import TrackHistoryEntry
+
 
 class WeAreOneTracklistProvisioner(TracklistProvisioner):
     def Provide(self, radio, httpConnection):

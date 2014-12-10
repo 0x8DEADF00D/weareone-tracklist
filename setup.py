@@ -27,6 +27,6 @@ setup(name='weareone-tracklist',
       ],
       entry_points={
           'console_scripts': [
-              'parser=parser:main'
+              'acquisition=acquisition:main'
           ]
       })

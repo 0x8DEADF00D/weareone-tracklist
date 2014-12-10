@@ -1,6 +1,6 @@
-from parser.WeAreOneTracklistProvisioner import WeAreOneTracklistProvisioner
-from parser.WeAreOneRadio import WeAreOneRadio
-from parser.RequestsHttpConnection import RequestsHttpConnection
+from acquisition.WeAreOneTracklistProvisioner import WeAreOneTracklistProvisioner
+from acquisition.RequestsHttpConnection import RequestsHttpConnection
+from core import WeAreOneRadio
 
 
 def main():
