@@ -5,7 +5,7 @@ workingDirectory = os.path.abspath(os.path.dirname(__file__))
 readmeContent = open(os.path.join(workingDirectory, 'README.md')).read()
 
 setup(name='weareone-tracklist',
-      version='0.1',
+      version='1.0',
       description='Tracklist parser for WeAreOne radios written in Python',
       long_description=readmeContent + '\n\n',
       author='Mostey',
