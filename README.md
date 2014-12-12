@@ -5,6 +5,8 @@ This utility is capable of parsing the tracklist of the following WeAreOne radio
 * housetime.fm
 * hardbase.fm
 * coretime.fm
+* clubtime.fm
+* trancebase.fm
 
 while printing the played tracks in the following format to stdout:
 

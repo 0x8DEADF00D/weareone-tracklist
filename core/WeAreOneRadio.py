@@ -21,3 +21,11 @@ class WeAreOneRadio(object):
     @staticmethod
     def CoretimeFM():
         return WeAreOneRadio("Coretime.FM", "http://www.coretime.fm/")
+
+    @staticmethod
+    def TrancebaseFM():
+        return WeAreOneRadio("Trancebase.FM", "http://www.trancebase.fm/")
+
+    @staticmethod
+    def ClubtimeFM():
+        return WeAreOneRadio("Clubtime.FM", "http://www.clubtime.fm/")

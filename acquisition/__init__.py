@@ -9,7 +9,9 @@ def main():
         WeAreOneRadio.CoretimeFM(),
         WeAreOneRadio.HardbaseFM(),
         WeAreOneRadio.TechnobaseFM(),
-        WeAreOneRadio.HousetimeFM()
+        WeAreOneRadio.HousetimeFM(),
+        WeAreOneRadio.TrancebaseFM(),
+        WeAreOneRadio.ClubtimeFM()
     ]
 
     if not len(sys.argv[1:]):
